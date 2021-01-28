@@ -1,0 +1,34 @@
+.todo{
+    display: flex;
+}
+.select{
+    flex: 3;
+    background-color: rgb(216, 159, 85);
+    width: 100%;
+    height: 200px;
+  
+}
+.list-contain{
+    flex: 2;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 400px;
+}
+#input{
+    margin-top: 30px;   
+    display: block;
+    height: 30px;
+    width: 70%;
+}
+#add{
+    font-size: 20px;
+}
+ul li{
+    font-size: 20px;
+    margin: 5px;
+}
+ul li:hover{
+    font-size: 22px;
+    color: red;
+    margin: 5px;
+}
